@@ -2045,6 +2045,11 @@
 		<xsl:variable name="base">
 			<xsl:choose>
 				<xsl:when test="contains(@url, '#')">
+					<!-- Relative file path? Need docroot prefix. -->
+					<xsl:if test="not(contains(@url, '://') or starts-with(@url, '/'))">
+						<xsl:value-of select="$relativeRoot" />
+					</xsl:if>
+
 					<xsl:value-of select="substring-before(@url, '#')" />
 				</xsl:when>
 
