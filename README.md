@@ -15,7 +15,7 @@ The BDML source pack contains:
  * the bdml.xsd definition;
  * the BdmlHtml.xsl XSLT 1.0 transform;
  * a set of example CSS stylesheets;
- * syntax highlighting and menu Javascript files.
+ * syntax highlighting Javascript files.
 
 How to use the BDML source pack:
 
