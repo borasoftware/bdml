@@ -24,9 +24,11 @@ How to use the BDML source pack:
    folder;
  * create a hierarchy of BDML documentation files that reference BdmlHtml.xsl
    and optionally the bdml-html.css CSS file and Javascript files;
- * directly load the BDML files in your browser (requires a browser local
-   XSLT file loading option modification) or create a build step that transforms
-   the BDML hierarchy into an HTML hierarchy via an XSLT 1.0 processor.
+ * directly load the BDML files in your browser (if loading local files, your browser's local
+   XSLT file loading will need to be enabled), install the files onto your web server (add the
+   .bdml file extension to your text/xml mime types in your web server configuration), or
+   create an AOT build step that transforms the BDML hierarchy into an HTML hierarchy via
+   an XSLT 1.0 processor.
 
 See the [Balau library](https://github.com/borasoftware/balau) for an example
 of usage:
