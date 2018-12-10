@@ -26,7 +26,7 @@ How to use the BDML source pack:
    and optionally the bdml-html.css CSS file and Javascript files;
  * directly load the BDML files in your browser (if loading local files, your browser's local
    XSLT file loading will need to be enabled), install the files onto your web server (add the
-   .bdml file extension to your text/xml mime types in your web server configuration), or
+   .bdml file extension to your text/xml mime type in your web server configuration), or
    create an AOT build step that transforms the BDML hierarchy into an HTML hierarchy via
    an XSLT 1.0 processor.
 
