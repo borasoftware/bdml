@@ -29,4 +29,6 @@ How to use the BDML source pack:
    the BDML hierarchy into an HTML hierarchy via an XSLT 1.0 processor.
 
 See the [Balau library](https://github.com/borasoftware/balau) for an example
-of usage.
+of usage:
+  * [AOT Balau documentation](https://borasoftware.com/doc/balau/latest/manual/index.html)
+  * [JIT Balau documentation](https://borasoftware.com/doc/balau-bdml/latest/manual/index.bdml)
