@@ -31,6 +31,7 @@
 }
 
 .bdml-horizontal-dropdown-menu > li:focus ul,
+.bdml-horizontal-dropdown-menu > li:focus-within ul,
 .bdml-horizontal-dropdown-menu > li:hover ul {
 	visibility: visible;
 	opacity: 1;
@@ -39,7 +40,7 @@
 	transition-delay: 0s, 0s, 0.3s;
 }
 
-.bdml-horizontal-dropdown-menu > li:hover ul {
+.bdml-horizontal-dropdown-menu > li:focus-within ul {
 	visibility: visible;
 	opacity: 1;
 	z-index: 1;
