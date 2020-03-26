@@ -28,7 +28,7 @@ CppHighlighterDefinition.COMMENT_BLOCK_END = BdmlXRegExp("\\*/");
 
 CppHighlighterDefinition.COMMENT_LINE = BdmlXRegExp("^\/\/.*");
 
-CppHighlighterDefinition.NAME = new BdmlXRegExp("^[\\p{L}_][\\p{L}0-9_]*");
+CppHighlighterDefinition.NAME = new BdmlXRegExp("^~?[\\p{L}_][\\p{L}0-9_]*");
 
 CppHighlighterDefinition.KEYWORDS = BdmlXRegExp("^(alignas|alignof|and|and_eq|asm|atomic_cancel|atomic_commit|atomic_noexcept|auto|bitand|bitor|break|case|catch|class|compl|concept|const|constexpr|const_cast|continue|co_await|co_return|co_yield|decltype|default|delete|do|dynamic_cast|else|enum|explicit|export|extern|false|final|for|friend|goto|if|import|inline|module|mutable|namespace|new|noexcept|not|not_eq|nullptr|operator|or|or_eq|override|private|protected|public|register|reinterpret_cast|requires|return|sizeof|static|static_assert|static_cast|struct|switch|synchronized|template|this|thread_local|throw|true|try|typedef|typeid|typename|union|using|virtual|volatile|while|xor|xor_eq)(?![\\p{L}0-9_])");
 
